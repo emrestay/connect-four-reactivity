@@ -1,0 +1,24 @@
+{
+  "name": "connect-four-reactivity",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "On-chain Connect Four powered by Somnia Reactivity",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx tsx scripts/1-deploy.ts",
+    "setup": "npx tsx scripts/2-setup-subscription.ts",
+    "play": "npx tsx scripts/3-play-cli.ts",
+    "watch": "npx tsx scripts/4-watch.ts"
+  },
+  "dependencies": {
+    "@somnia-chain/reactivity": "latest",
+    "@somnia-chain/reactivity-contracts": "latest",
+    "viem": "^2.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "hardhat": "^3.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
