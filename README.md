@@ -2,6 +2,8 @@
 
 Fully on-chain Connect Four with real-time moves and automatic prize distribution, powered by **Somnia Reactivity**.
 
+https://connect-four-reactivity.vercel.app
+
 ## How It Works
 
 ```
@@ -124,4 +126,3 @@ connect-four/
 ## Links
 
 - [Somnia Reactivity Docs](https://docs.somnia.network/developer/reactivity)
-- [Somnia Testnet Explorer](https://somnia-testnet.socialscan.io)
